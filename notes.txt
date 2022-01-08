@@ -1,0 +1,6 @@
+Differences from my first Dapp - Campaign project
+
+Using native next.js pages/_app.js file
+Using ethers instead of web3
+Using react function components with hooks instead of classes
+Storing key in env variable set in .bashrc

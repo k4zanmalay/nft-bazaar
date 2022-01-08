@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "axios": "^0.24.0",
+    "ipfs-http-client": "^50.1.2",
+    "next": "^12.0.7",
+    "next-routes-extended": "^1.7.0",
+    "react": "^17.0.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "autoprefixer": "^10.4.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.1",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p 3003"
+  }
+}
